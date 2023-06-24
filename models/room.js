@@ -1,5 +1,5 @@
 const Room = function(area, paintStatus){
-    this.room = room;
+    this.area = area;
     this.paintStatus = paintStatus;
 };
 
