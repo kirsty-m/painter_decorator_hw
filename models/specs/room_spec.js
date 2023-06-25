@@ -14,4 +14,9 @@ describe('Room', function() {
         const actual = room.area;
         assert.strictEqual(actual, 25);
     });
+
+    it('should have a paint status', function(){
+        const actual = room.paintStatus;
+        assert.strictEqual(actual, false);
+    });
 });
